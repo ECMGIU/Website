@@ -4,9 +4,17 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="icon"
+			type="image/png"
+			href="images/ECMG_Logo.png"
+			sizes="128x192"
+			/>
 		<!-- Compiled and minified CSS -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-			
+		<link rel="stylesheet" href="styles/styles.css">
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   		 <!--Special Animate on Scroll-->	
 		<!-- Compiled and minified JavaScript -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -15,16 +23,50 @@
   </head>
   
   <body>
-  <p> Supported by a privately-donated endowment fund, the group develops comprehensive investment knowledge within its 
-	  members through a unique, real money experience. Alongside its development of a diverse portfolio, allocated across 6 different sectors, 
-	  the group donates a portion of yearly returns to Indiana University scholarships. 
-	  Through its Investment, Marketing, Operations and Technology departments, 
-	  ECMG cultivates excellence within its members by providing them with resources and opportunities to succeed </p>
+	<header>
+		<div class="navbar-fixed">
+		  <nav>
+			<div class="nav-wrapper">
+			  <div class="container">
+			  <a href="index.html" class="brand-logo"><img class="logo" src="./images/ECMGLogo.png"/></a>
+			  <ul class="right hide-on-med-and-down">
+				<li><a href="inclusion.html" class="black-text"><i class="material-icons left">person</i>Inclusion Council</a></li>
+				<li><a href="reports.html" class="black-text"><i class="material-icons left">folder</i>Reports</a></li>
+				<li><a href="#" class="black-text">Apply</a></li>
+			  </ul>
+			</div>
+			</div>
+		  </nav>
+		</div>
+		
+		</header>
+	<div class="hero">
+		<div>
+			<h1>Endowment Consulting & Management Group</h1>
+			<p>Indiana University</p>
+		</div>
+	</div>
+	<div class="mission">
+		<div class="mission-text" data-aos="fade-up">
+			<p> Supported by a privately-donated endowment fund, the group develops comprehensive investment knowledge within its 
+				members through a unique, real money experience. Alongside its development of a diverse portfolio, allocated across 6 different sectors, 
+				the group donates a portion of yearly returns to Indiana University scholarships. 
+				Through its Investment, Marketing, Operations and Technology departments, 
+				ECMG cultivates excellence within its members by providing them with resources and opportunities to succeed 
+			</p>
+		</div>
+	</div>
+  
   <img src="images/ecmg_group.JPG" width = "700" height = "500">
   <br> <br>
   <a href="https://www.instagram.com/ecmgatiu/"> Find us on Instagram</a>
   <br> </br>
   <a href="https://www.linkedin.com/company/endowment-consulting-management-club/"> Find us on LinkedIn</a>
-	  
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+	AOS.init({
+	  duration: 400,
+	});
+  </script> 
   </body>
 </html>
