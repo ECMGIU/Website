@@ -80,8 +80,52 @@
   }
 }
 
+.mission {
+  margin: 100px auto;
+  max-width: 1024px;
+  font-size: 1rem;
+  clear: both;
+  display: block;
+  height: 30vh;
+}
+
+.mission-img {
+  max-width: 40%;
+  float: right;
+}
+
+.mission img {
+  width: 100%;
+}
+
 .mission-text {
   width: 50%;
-  margin-left: 25%;
+  float: left;
   font-size: 1.25rem;
+}
+
+.collapsible {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.collapsible-header {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#2b53df),
+    to(#89c7f4)
+  );
+  background-image: linear-gradient(90deg, #3867d6, #45aaf2);
+  cursor: pointer;
+  padding: 20px;
+  width: 100%;
+  color: white;
+  text-align: left;
+  outline: none;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  font-size: 1.5rem;
+  border: 1px solid #89c7f4;
 }

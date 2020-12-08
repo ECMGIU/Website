@@ -47,14 +47,33 @@
 		</div>
 	</div>
 	<div class="mission">
-		<div class="mission-text" data-aos="fade-up">
+		<div class="mission-text" data-aos="fade-right">
 			<p> Supported by a privately-donated endowment fund, the group develops comprehensive investment knowledge within its 
 				members through a unique, real money experience. Alongside its development of a diverse portfolio, allocated across 6 different sectors, 
 				the group donates a portion of yearly returns to Indiana University scholarships. 
 				Through its Investment, Marketing, Operations and Technology departments, 
-				ECMG cultivates excellence within its members by providing them with resources and opportunities to succeed 
+				ECMG cultivates excellence within its members by providing them with resources and opportunities to succeed. 
 			</p>
 		</div>
+		<div class="mission-img">
+			<img src="./images/MissionImage.svg">
+		</div>
+	</div>
+	<div class="questions">
+		<ul class="collapsible">
+			<li>
+			  <div class="collapsible-header">How do I apply?</div>
+			  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></div>
+			</li>
+			<li>
+			  <div class="collapsible-header">Hpw do I apply?</div>
+			  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></div>
+			</li>
+			<li>
+			  <div class="collapsible-header">How do I apply?</div>
+			  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></div>
+			</li>
+		  </ul>
 	</div>
   
   <img src="images/ecmg_group.JPG" width = "700" height = "500">
@@ -68,5 +87,11 @@
 	  duration: 400,
 	});
   </script> 
+  <script>
+	  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.collapsible');
+    var instances = M.Collapsible.init(elems, {accordion:true});
+  });
+  </script>
   </body>
 </html>
