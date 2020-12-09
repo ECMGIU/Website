@@ -1,42 +1,58 @@
 <html>
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link
+
+	<html>
+		<head>
+			<meta charset="UTF-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<link
 				rel="icon"
 				type="image/png"
 				href="images/ECMG_Logo.png"
 				sizes="128x192"
 				/>
-		<!-- Compiled and minified CSS -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+			<!-- Compiled and minified CSS -->
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+			<link rel="stylesheet" href="styles/styles.css">
+			<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+				<!--Special Animate on Scroll-->	
+			<!-- Compiled and minified JavaScript -->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+			<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		
-		
-		<!-- Compiled and minified JavaScript -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<title>Inclusion Council</title>
-		
 	  </head>
-	
-<body>
-	<img src />
-	<h1> What is the Inclusion Counsel </h1>
-	<p>In response to a growing awareness of the need to support underrepresented communities in finance, ECMG launched the Inclusion Council in the summer of 2020. This council was founded in order to create a more diverse and equitable environment within the organization. One of the defining goals of ECMG is to be an equal opportunity student-run organization that delivers a high standard of financial knowledge to its members and the community it operates in. At the Inclusion Council, we work together to forward this objective by improving recruitment practices, imbuing a more inclusive culture into the organization’s processes and activities, and ensuring the delivery of financial education to the larger community. 
-</p>
-	<img src />
-	<h1> Members </h1>
-	<ul>
-		<li> Person #1
-		<li> Person #2
-		<li> Person #3
-		<li> Person #4
-		<li> Person #5
-		<li> Person #6
-		<li> Person #7
-		<li> Person #8
-	</ul>
-	<h1> How to become involved in the inclusion counsel </h1>
-	<p> ***description of how to be involved </p>
-</body>
+	  
+	  <body>
+		<header>
+			<div class="navbar-fixed">
+			  <nav>
+				<div class="nav-wrapper">
+				  <div class="container">
+				  <a href="index.html" class="brand-logo"><img class="logo" src="./images/ECMGLogo.png"/></a>
+				  <ul class="right hide-on-med-and-down">
+					<li><a href="inclusion.html" class="black-text"><i class="material-icons left">person</i>Inclusion Council</a></li>
+					<li><a href="reports.html" class="black-text"><i class="material-icons left">folder</i>Reports</a></li>
+					<li><a href="#" class="black-text">Apply</a></li>
+				  </ul>
+				</div>
+				</div>
+			  </nav>
+			</div>
+			
+			</header>
+			<h1> What is the Inclusion Council</h1>
+			<p>In response to a growing awareness of the need to support underrepresented communities in finance, ECMG launched the Inclusion Council in the summer of 2020. This council was founded in order to create a more diverse and equitable environment within the organization. One of the defining goals of ECMG is to be an equal opportunity student-run organization that delivers a high standard of financial knowledge to its members and the community it operates in. At the Inclusion Council, we work together to forward this objective by improving recruitment practices, imbuing a more inclusive culture into the organization’s processes and activities, and ensuring the delivery of financial education to the larger community. 
+	  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	  <script>
+		AOS.init({
+		  duration: 400,
+		});
+	  </script> 
+	  <script>
+		  document.addEventListener('DOMContentLoaded', function() {
+		var elems = document.querySelectorAll('.collapsible');
+		var instances = M.Collapsible.init(elems, {accordion:true});
+	  });
+	  </script>
+	  </body>
 </html>
